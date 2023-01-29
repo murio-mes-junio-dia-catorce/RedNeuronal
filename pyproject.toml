@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "Red neuronal básica"
+version = "0.1.0"
+description = "Red neuronal básica"
+authors = ["@fuhrerhlemon"]
+license = "mit"
+readme = "README.md"
+packages = [{include = "a_neural_network_from_scratch"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+numpy = "^1.24.1"
+scipy = "^1.10.0"
+matplotlib = "^3.6.3"
+sklearn = "^0.0.post1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
